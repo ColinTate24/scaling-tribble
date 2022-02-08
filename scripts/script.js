@@ -54,13 +54,13 @@ function nameEnd(name) {
 
 function spiritAnimal(name) {
 
-  if (name.length < 5) {
+  if (name.length <= 5) {
     return "your spirit animal is a chinchilla"
   }
   if (name.length > 6) {
     return "your spirit animal is a tiger"
   }
-  if (name = "cumbie") {
+  if (name == "cumbie") {
     return "your spirit animal is not a pokemon"
   }
 }
